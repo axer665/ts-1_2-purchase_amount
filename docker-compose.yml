@@ -1,0 +1,9 @@
+version: '3'
+services:
+  frontend:
+    container_name: ts1
+    restart: always
+    build:
+      context: ./
+    ports:
+      - "3033:3000"
